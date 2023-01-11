@@ -15,13 +15,19 @@ body{
     width: 80%;
 }
 
+.logo{
+    margin-right: 20%;
+}
+
 .navbar{
     display: flex;
     list-style: none;
-    width: 720px;
+    width: 100%;
     justify-content: space-evenly;
     align-items: center;
     color: red;
+    padding: 0;
+    margin-left: 10%;
 }
 
 .navbar a{
@@ -53,8 +59,10 @@ body{
 .banner p {
     margin: 0;
     padding: 0;
-    font-size: 25px;
-    margin-left: 350px;
+    font-size: 50px;
+    margin-top: 170px;
+    
+    text-align: center;
 }
 
 .banner span {
