@@ -118,7 +118,7 @@ body{
 /* SOCIAL */
 
 .social {
-    background-color: #E5E5E5;
+    background-color: #000000;
     padding: 50px 0;
 }
 
@@ -142,7 +142,7 @@ body{
     align-self: center;
     justify-content: center;
     text-align: center;
-    color: #E6005A;
+    color: #FFF;
     margin: 0;
 }
 
@@ -166,8 +166,12 @@ body{
 }
 
 .box h4{
-    color: #E6005A;
+    color: #FFF;
     margin-top: 30px;
+}
+
+.box p {
+    color: #FFF;
 }
 
 /* Footer */
@@ -179,9 +183,57 @@ body{
     color: white;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 h4 {
     margin: 0;
     padding: 0;
+}
+
+.boxFooter {
+    width: 25%;
+    height: 100%;
+    color: #FFF;
+    /*background-color: aqua;*/
+    flex-direction: column;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.boxFooter a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.boxFooter .encaminhamentos {
+    margin-top: 20%;
+}
+
+.boxFooter2 img {
+    width: 5%;
+    margin-top: 20%;
+}
+
+.boxFooter2 {
+    width: 25%;
+    height: 100%;
+    color: #FFF;
+    /*background-color: aqua;*/
+    flex-direction: column;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+.boxFooter2 button {
+    color: #FFF;
+    background-color: #000000;
+    border-radius: 20px;
+    width: 45%;
+    height: 10%;
+    border: 3px #FFF solid;
 }
