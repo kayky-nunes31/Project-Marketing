@@ -323,3 +323,58 @@ h4 {
     color: #FFF;
     transition: all 0.5s ease-in;
 }
+
+
+/* Página de Contato */
+.banner-ctt {
+    height: 300px;
+    color: #FFF;
+    background-size: cover;
+    background-image: url("imgs/");
+}
+.banner-ctt .container-ctt {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner-ctt p {
+    margin: 0;
+    padding: 0;
+    
+    text-align: center;
+}
+
+.banner-ctt button {
+    margin-top: 35px;
+
+    width: 230px;
+    height: 40px;
+    color: #FFF;
+    background-color: red;
+}
+
+.banner-ctt button:hover {
+    background-color: #FFF;
+    color: #000000;
+    transition: all 0.5s ease-in;
+}
+
+.ctt {
+    display: flex;
+    background-color: #FFF;
+}
+.ctts {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 33%;
+    margin-left: 20px;
+}
+
+.ctts img {
+    width: 90px;
+    height: 80px;
+}
