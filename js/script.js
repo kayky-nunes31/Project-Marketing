@@ -29,3 +29,32 @@ function btt_contatos() {
     </div>
 `;
 }
+
+function btt_solution() {
+    divs_ctt.innerHTML = 
+    `
+    
+    <h1>O que é Inbound Marketing?</h1>
+    <p>
+        <b>Inbound Marketing</b>
+        é, basicamente uma série de estratégias que juntas, têm como objetivo atrair naturalmente os visitantes para o site da <br>
+        empresa. É o oposto do marketing tradicional, e baseia-se no relacionamento com o lead, não em propaganda interruptivas.
+    </p>
+    <p>
+        O
+        <b>Inbound Marketing</b>
+        possui como um de seus pilares o marketing de conteúdo, com foco na produção e distribuição de conteúdo relevante e <br>
+        de qualidade com o objetivo de atrair as pessoas certas até a sua empresa. Alinhamos o conteúdo com os interesses do seu público, atraimos o <br>
+        tráfego de entrada e então, convertemos em leads, fechamos negócios e conquistamos a fidelidade dos clientes.
+    </p>
+    <p>
+        Esse conteúdo exclusivo e autoral é uma forma de educar a audiência e potenciais consumidores sobre seu nicho de mercado, tornar sua <br>
+        empresa referência em determinado assunto relacionado a seu mercado e influenciar na decisão de compra de futuros clientes.
+    </p>
+    <p>
+        A melhor maneira de transformar desconhecidos em clientes e promover qualquer negócio é implementar o <b>Inbound Marketing</b>. Sua <br>
+        metodologia é adaptada a atual situação do mercado e aos atuais hábitos de compra dos consumidores
+    </p>
+
+    `;
+}

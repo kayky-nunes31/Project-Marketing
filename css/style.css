@@ -378,3 +378,15 @@ h4 {
     width: 90px;
     height: 80px;
 }
+
+/*
+    SOLUÇÕES
+*/
+
+.solution {
+    background-color: #FFF;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+}
