@@ -58,3 +58,10 @@ function btt_solution() {
 
     `;
 }
+
+function btt_cases() {
+    divs_ctt.innerHTML = 
+    `
+    
+    `;
+}

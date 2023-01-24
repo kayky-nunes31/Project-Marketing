@@ -4,6 +4,11 @@ body{
     font-family: 'Exo 2', 'Segoe UI', Tahoma, Geneva;
     background-color: #000000;
 }
+
+button {
+    cursor:pointer;
+ }
+
 .header {
     color: #FFF;
     border-bottom: 3px solid #FFF;
@@ -389,4 +394,28 @@ h4 {
     text-align: center;
     flex-direction: column;
     width: 100%;
+}
+
+/*
+    CASES DE SUCESSO
+*/
+
+.cases_scss {
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cases_txt {
+    width: 20%;
+    background-color: blue;
+}
+
+.cases_inf {
+    width: 20%;
+    background-color: red;
 }
