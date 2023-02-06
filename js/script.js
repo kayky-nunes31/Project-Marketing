@@ -62,6 +62,30 @@ function btt_solution() {
 function btt_cases() {
     divs_ctt.innerHTML = 
     `
-    
+        <div class="cases_txt">
+            <p></p>
+            <button>VER CASES COMPLETOS</button>
+        </div>
+        <div class="cases_inf">
+            <div class="cases_div">
+                <h1>+64%</h1>
+                <p>nas visitas do site</p>
+            </div>
+            <div class="cases_div">
+                <h1>+143%</h1>
+                <p>na geração de lucro</p>
+            </div>
+        </div>
+        <br>
+        <div class="cases_inf">
+            <div class="cases_div">
+                <h1>+1.900%</h1>
+                <p>na mensuração das vendas</p>
+            </div>
+            <div class="cases_div">
+                <h1>9</h1>
+                <p>palavras em primeiro lugar</p>
+            </div>
+        </div>
     `;
 }

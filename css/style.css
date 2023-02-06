@@ -401,21 +401,57 @@ h4 {
 */
 
 .cases_scss {
-    background-color: #FFF;
+    background-color: #000000;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
-    flex-direction: column;
     width: 100%;
 }
 
 .cases_txt {
-    width: 20%;
-    background-color: blue;
+    width: 15%;
+    /*background-color: blue;*/
+}
+
+.cases_txt button {
+    color: #FFF;
+    background-color: #000000;
+    border-radius: 20px;
+    width: 60%;
+    height: 10%;
+    border: 3px #FFF solid;
+    margin-top: 10%;
+}
+
+.cases_txt button:hover {
+    background-color: rgb(3, 180, 180);
+    color: #FFF;
+    transition: all 0.5s ease-in;
 }
 
 .cases_inf {
-    width: 20%;
-    background-color: red;
+    width: 15%;
+    /*background-color: rgba(72, 72, 72, 0.557);*/
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cases_inf h1 {
+    color: blueviolet;
+}
+
+.cases_inf p {
+    color: #FFF;
+}
+
+.cases_div {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(72, 72, 72, 0.557);
+    padding: 0;
+    margin-top: 10px;
+    border-radius: 20px;
 }
