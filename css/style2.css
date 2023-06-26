@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Exo 2', 'Segoe UI', Tahoma, Geneva;
-    background-color: #000000;
+    background-color: #FFF;
 }
 
 button {
@@ -10,6 +10,7 @@ button {
  }
 
 .header {
+    background-color: #000;
     color: #FFF;
     border-bottom: 3px solid #FFF;
 }
@@ -30,7 +31,7 @@ button {
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    color: red;
+    color: gold;
     padding: 0;
 }
 
@@ -413,5 +414,104 @@ hr {
     align-items: center;
     justify-content: center;
 }
+.btn-camp {
+    color: #FFF;
+    background-color: #000000;
+    border-radius: 20px;
+    width: 100%;
+    height: 10%;
+    border: 3px gold solid;
+}
+
+.btn-camp:hover {
+    background-color: gold;
+    color: #000;
+    transition: all 0.5s ease-in;
+}
 
 /*Animation Seccção 1*/
+
+/*
+Cases de Sucesso
+*/
+.container_ctt {
+    width: 100%;
+    height: 100%;
+    background-color: #FFF;
+}
+.container_ctt h1, h3 {
+    color: #000000;
+    text-align: center;
+}
+.ctt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container_ctt button {
+    color: #FFF;
+    background-color: #000000;
+    border-radius: 20px;
+    width: 50%;
+    height: 3vw;
+    border: 3px gold solid;
+}
+
+.container_ctt button:hover {
+    background-color: gold;
+    color: #000;
+    transition: all 0.5s ease-in;
+}
+.container_ctt h1{
+    margin: 0;
+    padding: 0;
+}
+.container_ctt h1 {
+    background: linear-gradient(0deg, gold, gold) no-repeat right bottom / 0 var(--bg-h);
+    transition: background-size 350ms;
+    --bg-h: 100%;
+  }
+.container_ctt h1:where(:hover, :focus-visible) {
+    background-size: 100% var(--bg-h);
+    background-position-x: left;
+  }
+.container_ctt h1 {
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+  }
+
+/*
+
+
+.container_ctt h3{
+    color: inherit;
+    text-decoration: none;
+  }
+  
+.container_ctt h3 {
+    background:
+      linear-gradient(
+        to right,
+        rgb(255, 217, 2),
+        rgb(255, 217, 2)
+      ),
+      linear-gradient(
+        to right,
+        rgba(255, 0, 0, 1),
+        rgba(255, 0, 180, 1),
+        rgba(0, 100, 200, 1)
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+  }
+  .container_ctt h3:hover {
+    background-size: 0 3px, 100% 3px;
+  }
+
+
+*/
