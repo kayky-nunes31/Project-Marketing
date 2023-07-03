@@ -321,7 +321,7 @@ hr {
 }
 .impacto {
     width: 100%;
-    height: 310vh;
+    /*height: 310vh;*/
     background-color: #FFF;
 }
 .geracao {
@@ -429,8 +429,6 @@ hr {
     transition: all 0.5s ease-in;
 }
 
-/*Animation Seccção 1*/
-
 /*
 Cases de Sucesso
 */
@@ -483,35 +481,70 @@ Cases de Sucesso
     line-height: 1;
   }
 
-/*
+/*Parceria*/
+.seccao-par {
+    width: 100%;
+    height: 500px;
+    /*background-color: blueviolet;*/
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.parceria, .card-parceria {
+    width: 40%;
+    height: 500px;
 
-.container_ctt h3{
-    color: inherit;
-    text-decoration: none;
-  }
-  
-.container_ctt h3 {
-    background:
-      linear-gradient(
-        to right,
-        rgb(255, 217, 2),
-        rgb(255, 217, 2)
-      ),
-      linear-gradient(
-        to right,
-        rgba(255, 0, 0, 1),
-        rgba(255, 0, 180, 1),
-        rgba(0, 100, 200, 1)
-    );
-    background-size: 100% 3px, 0 3px;
-    background-position: 100% 100%, 0 100%;
-    background-repeat: no-repeat;
-    transition: background-size 400ms;
-  }
-  .container_ctt h3:hover {
-    background-size: 0 3px, 100% 3px;
-  }
+    background-color: #000000ee;
+    border: 3px solid gold;
+    border-radius: 20px;
 
+    text-align: center;
+    color: #FFF;
+}
+h3 {
+    color: #FFF;
+}
+.parceria {
+    margin-right: 5vw;
+}
 
-*/
+.btn-camp2 {
+    color: #FFF;
+    background-color: #000000;
+    border-radius: 20px;
+    width: 50%;
+    height: 10%;
+    border: 3px gold solid;
+}
+
+.btn-camp2:hover {
+    background-color: gold;
+    color: #000;
+    transition: all 0.5s ease-in;
+}
+
+.col-4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.col-4 img {
+cursor: pointer;
+ margin: 0 auto;
+ padding-top: 1em;
+ vertical-align: middle;
+}
+.col-4 img:hover {
+    margin-top: 10px!important;
+    position: relative!important;
+}
+
+.bloco-logos {
+    height: 170px;
+}
+
+.bloco-logos img {
+    margin-top: 50px;
+}
