@@ -561,6 +561,8 @@ Secção - Parceiros
     display: flex;
     align-items: center;
     justify-content: center;
+
+    margin-bottom: 2vw;
 }
 
 .metodo-text {
@@ -572,7 +574,7 @@ Secção - Parceiros
     color: #000;
     font-size: 2.3vh;
 }
-.metodo-vídeo {
+.metodo-video {
     width: 40%;
     height: 100%;
 
@@ -584,3 +586,88 @@ Secção - Parceiros
     width: 100%;
     height: 100%;
 }
+
+/*
+Secção - Resultados
+*/
+
+.seccao-result {
+    width: 100%;
+    height: 50vh;
+    /*background-color: blueviolet;*/
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 5vw;
+}
+
+.result-text {
+    width: 50%;
+    height: 100%;
+    margin: 20px;
+
+    text-align: center;
+    color: #000;
+    font-size: 2.3vh;
+}
+.result-video {
+    width: 40%;
+    height: 100%;
+
+    border: gold 5px solid;
+    border-radius: 40px;
+}
+
+/*
+Secção Tecnologias
+*/
+.seccao-tec {
+    width: 100%;
+    height: 50vh;
+    /*background-color: blueviolet;*/
+    text-align: center;
+}
+.text-tec {
+    margin: 0;
+    padding: 1;
+    font-size: 3vw;
+}
+
+.text-tec {
+    background-image: linear-gradient(
+      to right,
+      gold,
+      gold 50%,
+      #000 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+.text-tec:before{
+    content: '';
+    background: gold;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+.text-tec:hover {
+   background-position: 0;
+  }
+  
+.text-tec:hover::before{
+    width: 100%;
+  }
